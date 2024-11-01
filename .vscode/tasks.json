@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "presentation": {
+      "reveal": "always",
+      "focus": false,
+      "panel": "dedicated",
+      "showReuseMessage": true
+    },
+    "tasks": [
+      {
+        "label": "install extensions",
+        "type": "shell",     
+        "command": ["chmod +x install-extensions.sh && ./install-extensions.sh"],
+        "runOptions": {
+          "runOn": "folderOpen"
+        }
+      }
+    ]
+  }
